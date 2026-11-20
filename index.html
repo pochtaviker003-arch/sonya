@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#fff4f2" />
+  <meta name="description" content="Маленький сайт для Сони. Большая любовь, наши воспоминания и немного волшебства." />
+  <title>Соня, я тебя люблю ♡</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div>
+  <div class="ambient ambient-two"></div>
+  <div class="hearts-layer" id="heartsLayer" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="На главную"><span class="brand-heart">♥</span> для Сони</a>
+    <nav class="nav-links" aria-label="Навигация">
+      <a href="#story">Мои слова</a>
+      <a href="#gallery">Наши фото</a>
+      <a href="#game">Игра</a>
+    </nav>
+    <button class="music-button" id="musicButton" type="button" aria-label="Включить музыку">
+      <span class="music-icon">♫</span><span id="musicButtonText">Включить музыку</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> маленький сайт с огромной любовью</div>
+        <p class="hero-overline">Для самой прекрасной девушки</p>
+        <h1><span class="hero-title-line hero-title-first">Соня,</span><span class="hero-title-line hero-title-second"><em>я тебя люблю.</em></span></h1>
+        <p class="hero-description">Среди миллиардов людей моё сердце почему-то выбрало именно тебя. И каждый день я понимаю, насколько ему повезло.</p>
+        <div class="hero-actions">
+          <a class="primary-button" href="#story">Открой моё письмо <span>↗</span></a>
+          <button class="text-button" id="heartButton" type="button">Отправить тебе любовь <span>♡</span></button>
+        </div>
+        <div class="hero-note"><span class="tiny-heart">♥</span> это только наше маленькое место</div>
+      </div>
+
+      <div class="hero-art reveal">
+        <div class="photo-orbit orbit-one"></div>
+        <div class="photo-orbit orbit-two"></div>
+        <div class="hero-photo hero-photo-main photo-frame" data-photo="1">
+          <img src="фото/1.jpg" alt="Наше любимое фото" />
+          <div class="photo-fallback"><span>♡</span><small>наше фото №1</small></div>
+        </div>
+        <div class="hero-photo hero-photo-small photo-frame" data-photo="2">
+          <img src="фото/2.jpg" alt="Ещё одно наше фото" />
+          <div class="photo-fallback"><span>✿</span><small>наше фото №2</small></div>
+        </div>
+        <div class="floating-note note-top">ты — моё счастье <span>♥</span></div>
+        <div class="floating-note note-bottom"><span class="sparkle">✦</span> рядом с тобой — лучше</div>
+        <div class="hero-sparkle sparkle-one">✧</div>
+        <div class="hero-sparkle sparkle-two">✦</div>
+      </div>
+      <a class="scroll-cue" href="#story"><span></span> листай, любимая</a>
+    </section>
+
+    <section class="love-strip" aria-label="Послание">
+      <div class="marquee-track"><span>ты моё самое тёплое чудо</span><b>♥</b><span>я выбираю тебя</span><b>♥</b><span>с тобой всё становится красивее</span><b>♥</b><span>ты моё самое тёплое чудо</span><b>♥</b><span>я выбираю тебя</span><b>♥</b></div>
+    </section>
+
+    <section class="story-section section-shell" id="story">
+      <div class="section-heading reveal">
+        <p class="section-kicker">01 / несколько важных слов</p>
+        <h2>Знаешь, что<br><em>я в тебе люблю?</em></h2>
+        <p class="section-subtitle">Кажется, для этого не хватит ни одного сайта, ни всех слов на свете. Но я всё равно попробую.</p>
+      </div>
+      <div class="letter-card reveal">
+        <div class="letter-stamp">С любовью<br><span>♡</span></div>
+        <p class="letter-greeting">Моя дорогая Соня,</p>
+        <p class="letter-text">Я люблю твою улыбку — особенно ту, которая появляется неожиданно. Люблю твой голос, твои глаза, твой смех и даже маленькие привычки, которые, возможно, ты сама не замечаешь.</p>
+        <p class="letter-text">Мне нравится узнавать тебя всё ближе, слушать твои истории, делиться своими мыслями и просто быть рядом. Ты делаешь обычные моменты особенными. И даже самый простой день становится лучше, когда в нём есть ты.</p>
+        <p class="letter-text">Я не обещаю, что каждый день будет идеальным. Но обещаю беречь то хорошее, что есть между нами, поддерживать тебя, радоваться твоим победам и напоминать, какая ты невероятная.</p>
+        <p class="letter-sign">Твой человек <span>♥</span></p>
+      </div>
+
+      <div class="compliment-area reveal">
+        <div class="compliment-label">маленькое напоминание для тебя</div>
+        <div class="compliment-card">
+          <span class="quote-mark">“</span>
+          <p id="complimentText">Твоя улыбка — моё любимое освещение в этом мире.</p>
+          <span class="quote-heart">♡</span>
+        </div>
+        <button class="outline-button" id="complimentButton" type="button">Ещё один комплимент <span>✧</span></button>
+      </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+      <div class="section-shell">
+        <div class="gallery-heading reveal">
+          <div>
+            <p class="section-kicker">02 / моменты, которые хочется сохранить</p>
+            <h2>Наша маленькая<br><em>вселенная.</em></h2>
+          </div>
+          <p class="gallery-side-note">Шесть фотографий.<br>Бесконечно много чувств.</p>
+        </div>
+        <div class="gallery-grid">
+          <figure class="gallery-item gallery-item-large reveal" data-photo="1"><img src="фото/1.jpg" alt="Наш момент 1" loading="lazy" decoding="async"><div class="photo-fallback"><span>♡</span><small>добавь фото 1</small></div><figcaption>момент, который хочется повторить</figcaption></figure>
+          <figure class="gallery-item gallery-item-tall reveal" data-photo="2"><img src="фото/2.jpg" alt="Наш момент 2" loading="lazy" decoding="async"><div class="photo-fallback"><span>✿</span><small>добавь фото 2</small></div><figcaption>твоё самое красивое настроение</figcaption></figure>
+          <figure class="gallery-item reveal" data-photo="3"><img src="фото/3.jpg" alt="Наш момент 3" loading="lazy" decoding="async"><div class="photo-fallback"><span>✧</span><small>добавь фото 3</small></div><figcaption>там, где хорошо</figcaption></figure>
+          <figure class="gallery-item reveal" data-photo="4"><img src="фото/4.jpg" alt="Наш момент 4" loading="lazy" decoding="async"><div class="photo-fallback"><span>♥</span><small>добавь фото 4</small></div><figcaption>ещё одно наше воспоминание</figcaption></figure>
+          <figure class="gallery-item gallery-item-wide reveal" data-photo="5"><img src="фото/5.jpg" alt="Наш момент 5" loading="lazy" decoding="async"><div class="photo-fallback"><span>♡</span><small>добавь фото 5</small></div><figcaption>любимый кадр из нашей истории</figcaption></figure>
+          <figure class="gallery-item reveal" data-photo="6"><img src="фото/6.jpg" alt="Наш момент 6" loading="lazy" decoding="async"><div class="photo-fallback"><span>✦</span><small>добавь фото 6</small></div><figcaption>и это только начало</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="game-section section-shell" id="game">
+      <div class="section-heading reveal">
+        <p class="section-kicker">03 / маленькое испытание</p>
+        <h2>Найди <em>нашу пару.</em></h2>
+        <p class="section-subtitle">Переворачивай карточки и находи одинаковые фотографии. Все шесть пар — про нас ♡</p>
+      </div>
+      <div class="game-panel reveal">
+        <div class="game-topline">
+          <div class="game-stat"><span class="stat-number" id="movesCount">0</span><span>ходов</span></div>
+          <div class="game-progress"><div class="progress-copy"><span>найдено пар</span><b id="pairsCount">0 / 6</b></div><div class="progress-track"><span id="progressFill"></span></div></div>
+          <button class="reset-button" id="resetGame" type="button" aria-label="Начать игру заново">↻ <span>Заново</span></button>
+        </div>
+        <div class="memory-grid" id="memoryGrid" aria-label="Игра Найди пару"></div>
+        <div class="game-message" id="gameMessage" aria-live="polite">Найди все шесть пар. У тебя получится, любимая!</div>
+      </div>
+    </section>
+
+    <section class="final-section">
+      <div class="final-glow"></div>
+      <div class="final-content reveal">
+        <span class="final-overline">и самое главное…</span>
+        <div class="big-heart">♥</div>
+        <h2>Соня, ты —<br><em>моё любимое «счастье».</em></h2>
+        <p>Спасибо, что ты есть. Пусть у нас впереди будет ещё много фотографий, смешных историй, долгих разговоров и моментов, которые захочется переживать снова и снова.</p>
+        <button class="final-button" id="finalHeartButton" type="button">Нажми на сердечко <span>♡</span></button>
+        <div class="final-signature">с любовью, всегда <span>♥</span></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><span>сделано с любовью для Сони</span><span>♡</span><a href="qr.html">создать QR-код</a></footer>
+  <audio id="backgroundMusic" src="music.mp3" loop preload="none"></audio>
+</body>
+</html>
